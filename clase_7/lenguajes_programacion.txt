@@ -1,0 +1,93 @@
+Lneguajes d programacion
+
+bajo nivel:
+
+medio nivel: son precisos p ciertas aplicaciones cmo la creacion d sistemas operarivos
+como x ej c
+
+
+alto nive:  se caracterizan x epresar los alogaritmos d una manera adecuada
+como x ej js, python, java
+
+
+Paradigmas d programacion
+Guia la forma en q se estreuctura y escribe el codigo
+El estrilo. elegimos p resolver un problema
+Engloba ciertos lenguajes q comparten ciertos elementos estrucutrales y metodologicos
+
+paradigma imperativo:
+Secuencia d instrucciones o comandos q cambian el estado d un programa
+
+pardigma declarativo: no importa el como sino el que
+Describe las propiedad d la solucion buscada deando indeterminado el alogaritmo usado p encontrar esa solucion
+
+paradigma estructurado: estructuras d control bien definidas
+se basa en una metodologia de desarrollo d programas llamada refinamientos sucesivos
+
+paradigma orientado a objetos
+    tambien llamado poo.
+esta diseñado p resoler probloemas utilizando restricciones decflarativas y logica en lugar de seguir un conjunto d instrucciones
+
+paradigma funcional:
+se basa en funciones matematikcas voraz
+es limpio eloegante e ideal p q no hayan conflictos
+
+pàradigma logico:
+
+se basa en hechos y reglas
+la solucion se encuentra a traves d inferencia logica
+
+Lenguajes compìlados:
+son aquellos cuyos programas se traducen completamente a codigo d maquina (binario) mediante un compilador antes d ser ejecutados
+El resultado d la compilacion es un archivo ejecutable indipendiente del codigo d fuente original
+caracteristicas:
+- trad completa a cod d maquina antes d la ejecucino
+- ejecutables ind del codigo d fuente
+- errores detectados en la fase d interpretacion
+
+lenguajes interpretados
+son aquellos cuyos programas se ejecutan direc tamente a partir dewl codigo fuente mediante un interprete q traduce u ejeuta el codigo linea x linea
+- caracteristicas
+*ejecucion directamente
+*flexibilidad
+*errores en tiempos d ejecucion
+
+lenguajes hibridos
+
+combinan caracteristicas d los lenguajes compilados e interpretados
+
+Cuándo conviene usar un lenguaje compilado
+Lenguajes compilados: C, C++, Rust, Go, Swift…
+1. Cuando necesitas el máximo rendimiento
+Los lenguajes compilados se traducen directamente a código máquina antes de ejecutarse, por lo que suelen ser mucho más rápidos que los interpretados.
+Ejemplos:
+Motores de videojuegos
+Procesamiento de imágenes o audio en tiempo real
+Algoritmos científicos pesados
+2. Cuando trabajas con recursos de hardware
+Si necesitas manipular memoria, trabajar con dispositivos, o controlar detalles de bajo nivel, los compilados son mejores.
+Ejemplos:
+Sistemas embebidos
+Drivers
+Sistemas operativos
+Programación de microcontroladores
+
+Antonella Pereyra Corts (20 de nov de 2025, 20:18)
+3. Cuando buscas mayor eficiencia y consumo mínimo
+Un programa compilado generalmente:
+Usa menos RAM
+Consume menos CPU
+Arranca más rápido
+Ideal para:
+Aplicaciones que correrán en servidores con mucha carga
+Sistemas con recursos limitados
+4. Cuando necesitas alta seguridad de tipos y menos errores en runtime
+Los compiladores detectan muchos errores antes de ejecutar el programa.
+Útil para:
+Proyectos grandes con muchos desarrolladores
+Software crítico (médico, financiero, aeroespacial)
+5. Cuando vas a distribuir software al usuario final
+Un ejecutable compilado:
+No requiere instalar un intérprete
+No expone el código fuente tan fácilmente
+Suelen ser mas difici de modificar o hackear

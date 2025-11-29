@@ -1,0 +1,23 @@
+man
+Muestra el manual completo de un comando.
+Diferencia con help: man es más detallado y formal; help da una ayuda breve.
+
+cp
+Copia archivos o carpetas.
+Si no pongo ruta de destino: copia el archivo en el mismo directorio con el mismo nombre → parece que “no pasó nada”.
+
+mv
+Mueve o renombra archivos.
+Para cambiar solo el nombre: especificar archivo actual + nuevo nombre dentro del mismo directorio.
+
+clear
+Limpia la pantalla del terminal.
+No borra historial, solo oculta lo que ves.
+
+history
+Muestra todos los comandos ejecutados.
+Crucial: permite repetir, corregir y automatizar sin reescribir → ahorra tiempo.
+
+echo
+Imprime texto o variables.
+En programación/automatización: sirve para mostrar valores, crear archivos, pasar datos a scripts y debuggear.
