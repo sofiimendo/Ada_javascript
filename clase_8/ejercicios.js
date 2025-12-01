@@ -1,21 +1,3 @@
-// 🌸 Ejercicio 1: Calculadora de Descuento
-// Calcula el precio final de un producto después de aplicar un descuento.
-
-const prompt = require("prompt-sync")({ sigint: true });
-
-// 👉 Solicitud de datos al usuario
-let precioOriginal = Number(prompt("💰 Ingrese el precio del producto: "));
-let porcentajeDescuento = Number(prompt("🔻 Ingrese el porcentaje de descuento: "));
-
-// 👉 Cálculos
-let montoDescuento = (precioOriginal * porcentajeDescuento) / 100;
-let precioFinal = precioOriginal - montoDescuento;
-
-// 👉 Resultado
-console.log(`✨ El precio final del producto es: $${precioFinal}`);
-
-
-
 //Ejercicio 2 - ¡Viaje a la fiambrería!
 //Si quisiera ir a comprar 150 gramos de queso a mi fiambrería de confianza, tendría que tener en cuenta las siguientes variables (no pensemos en ellas solo como factores externos, sino como valores de lo cotidiano a tener en cuenta)
 //Primero tenemos que ver la temperatura en el exterior, eso nos va a determinar la ropa.
