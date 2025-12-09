@@ -1,8 +1,6 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
-// Ejercicio 4: ¿Es par o impar?
-// Consigna:
-// Los números pueden ser pares o impares. Escribe un programa que le pida al usuario un número y determine si es par o impar. Muestra un mensaje explicativo indicando qué significa cada caso.
+
 // Ejercicio 5: Encuentra los números pares entre dos valores
 // Consigna:
 // Escribe un programa que le pida al usuario dos números enteros (inicio y fin). El programa debe mostrar todos los números pares que se encuentran entre esos dos valores, incluyendo los límites si son pares. Utiliza un ciclo for para recorrer los números entre el
