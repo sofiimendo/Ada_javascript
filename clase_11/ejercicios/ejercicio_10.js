@@ -23,3 +23,8 @@ for (let i = 1; i <= 3; i++) {
 if (!acierto) {
     console.log(`❌ No acertaste en 3 intentos. El número secreto era ${numeroSecreto}.`);
 }
+
+// Math.random() genera un número decimal entre 0 y 1.
+// Lo multiplico por 10 para obtener un número entre 0 y 10.
+// Math.floor() redondea hacia abajo para obtener un entero.
+// Le sumo 1 para que el rango final sea 1 a 10.
