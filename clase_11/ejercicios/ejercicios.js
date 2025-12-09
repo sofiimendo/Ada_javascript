@@ -1,14 +1,9 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
 
-// Ejercicio 5: Encuentra los números pares entre dos valores
-// Consigna:
-// Escribe un programa que le pida al usuario dos números enteros (inicio y fin). El programa debe mostrar todos los números pares que se encuentran entre esos dos valores, incluyendo los límites si son pares. Utiliza un ciclo for para recorrer los números entre el
 
-// inicio y el fin. Si el número inicial es mayor que el final, el programa debe mostrar un mensaje indicando que los valores son inválidos.
-// Ejercicio 6: La tabla de multiplicar
-// Consigna:
-// Crea un programa que le pida al usuario un número y luego imprima su tabla de multiplicar desde el 1 hasta el 10. Usa un ciclo for.
+
+
 // Ejercicio 7: Calculadora simple
 // Consigna:
 // Crea un programa que le pida al usuario dos números y una operación matemática a realizar: suma, resta, multiplicación o división. Según la operación ingresada, el programa deberá calcular y mostrar el resultado. Si el usuario ingresa una operación inválida, el programa debe mostrar un mensaje de error. Usa switch para resolverlo.
