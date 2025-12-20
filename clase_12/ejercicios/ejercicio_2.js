@@ -8,20 +8,20 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
 // 🔒 Contraseña correcta
-const CONTRASEÑA = 1234;
+const PASSWORD = 1234;
 
 // 💗 Variable donde guardamos lo que escribe el usuario
-let contraseñaUsuario;
+let passwordUsuario;
 
 // 🔁 Bucle do...while
 do {
-    contraseñaUsuario = parseInt(prompt("✨ Ingresá tu contraseña: "));
+    passwordUsuario = parseInt(prompt("✨ Ingresá tu contraseña: "));
 
-    if (contraseñaUsuario !== CONTRASEÑA) {
+    if (passwordUsuario !== PASSWORD) {
         console.log("🌙 Contraseña incorrecta, intentá de nuevo…");
     }
 
-} while (contraseñaUsuario !== CONTRASEÑA);
+} while (passwordUsuario !== PASSWORD);
 
 // 🌈 Mensaje final
 console.log("💖 Contraseña correcta, bienvenida ✨");
